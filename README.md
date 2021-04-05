@@ -13,6 +13,8 @@ Given the Euler bend can be described by the Fresnel integrals [1], we use the s
 We also note that this Euler bend is not symmetric -- so, as recommended by [3] we calculate an Euler bend for half of the desired angle (let us call this 'Bend A'). We then make a copy of this structure, flip it across the y axis and rotate the flipped bend by the desired angle. We then shift this flipped and rotated structure ('Bend B') such that Bend B touches Bend A. We now have a completed Euler bend structure. 
 
 
-[1] https://en.wikipedia.org/wiki/Euler_spiral#Formulation \n
+[1] https://en.wikipedia.org/wiki/Euler_spiral#Formulation
+
 [2] https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.fresnel.html
+
 [3] Cherchi, M., Ylinen, S., Harjanne, M., Kapulainen, M., Vehmas, T., & Aalto, T. (2014). The Euler bend: Paving the way for High-density integration on Micron-scale Semiconductor platforms. Silicon Photonics IX. doi:10.1117/12.2039912
